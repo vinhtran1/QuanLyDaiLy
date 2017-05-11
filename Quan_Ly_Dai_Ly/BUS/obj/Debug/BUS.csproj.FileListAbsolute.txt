@@ -1,0 +1,8 @@
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\bin\Debug\BUS.exe
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\bin\Debug\BUS.pdb
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.Form1.resources
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.Properties.Resources.resources
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.csproj.GenerateResource.Cache
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.exe
+C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.pdb
