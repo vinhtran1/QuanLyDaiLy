@@ -1,0 +1,2 @@
+C:\Users\Hana Tran\Documents\GitHub\QuanLyDaiLy\Quan_Ly_Dai_Ly\GUI\obj\Debug\BUS.exe
+C:\Users\Hana Tran\Documents\GitHub\QuanLyDaiLy\Quan_Ly_Dai_Ly\GUI\obj\Debug\BUS.pdb

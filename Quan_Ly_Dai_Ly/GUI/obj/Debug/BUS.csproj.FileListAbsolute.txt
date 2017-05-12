@@ -6,3 +6,5 @@ C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.Properties.Resources
 C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.csproj.GenerateResource.Cache
 C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.exe
 C:\Users\Hana Tran\Desktop\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.pdb
+C:\Users\Hana Tran\Documents\GitHub\QuanLyDaiLy\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.exe
+C:\Users\Hana Tran\Documents\GitHub\QuanLyDaiLy\Quan_Ly_Dai_Ly\BUS\obj\Debug\BUS.pdb

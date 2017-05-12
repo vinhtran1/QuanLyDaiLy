@@ -43,8 +43,12 @@
             this.pnlAction = new System.Windows.Forms.Panel();
             this.lblHeader = new System.Windows.Forms.Label();
             this.img = new System.Windows.Forms.ImageList(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabMenu)).BeginInit();
             this.tabMenu.SuspendLayout();
+            this.tabTiepNhanDaiLy.SuspendLayout();
+            this.tabLapPhieuXuatHang.SuspendLayout();
             this.pnlAction.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,13 +77,15 @@
             // tabTiepNhanDaiLy
             // 
             this.tabTiepNhanDaiLy.AutoScroll = true;
+            this.tabTiepNhanDaiLy.Controls.Add(this.label1);
             this.tabTiepNhanDaiLy.Image = ((System.Drawing.Image)(resources.GetObject("tabTiepNhanDaiLy.Image")));
             this.tabTiepNhanDaiLy.Name = "tabTiepNhanDaiLy";
-            this.tabTiepNhanDaiLy.Size = new System.Drawing.Size(619, 400);
+            this.tabTiepNhanDaiLy.Size = new System.Drawing.Size(619, 426);
             this.tabTiepNhanDaiLy.Text = "Tiếp Nhận Đại Lý";
             // 
             // tabLapPhieuXuatHang
             // 
+            this.tabLapPhieuXuatHang.Controls.Add(this.label2);
             this.tabLapPhieuXuatHang.Image = ((System.Drawing.Image)(resources.GetObject("tabLapPhieuXuatHang.Image")));
             this.tabLapPhieuXuatHang.Name = "tabLapPhieuXuatHang";
             this.tabLapPhieuXuatHang.Size = new System.Drawing.Size(619, 426);
@@ -96,14 +102,14 @@
             // 
             this.tabLapPhieuThuTien.Image = ((System.Drawing.Image)(resources.GetObject("tabLapPhieuThuTien.Image")));
             this.tabLapPhieuThuTien.Name = "tabLapPhieuThuTien";
-            this.tabLapPhieuThuTien.Size = new System.Drawing.Size(619, 400);
+            this.tabLapPhieuThuTien.Size = new System.Drawing.Size(619, 426);
             this.tabLapPhieuThuTien.Text = "Lập Phiếu Thu Tiền";
             // 
             // tabLapBaoCao
             // 
             this.tabLapBaoCao.Image = ((System.Drawing.Image)(resources.GetObject("tabLapBaoCao.Image")));
             this.tabLapBaoCao.Name = "tabLapBaoCao";
-            this.tabLapBaoCao.Size = new System.Drawing.Size(619, 400);
+            this.tabLapBaoCao.Size = new System.Drawing.Size(619, 426);
             this.tabLapBaoCao.Text = "Báo Cáo Tháng";
             // 
             // tabSuaDoiQuyDinh
@@ -117,7 +123,7 @@
             // 
             this.btnExit.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.Location = new System.Drawing.Point(66, 6);
+            this.btnExit.Location = new System.Drawing.Point(57, 3);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(37, 46);
             this.btnExit.TabIndex = 0;
@@ -127,7 +133,7 @@
             // 
             this.btnMinimize.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.btnMinimize.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimize.Image")));
-            this.btnMinimize.Location = new System.Drawing.Point(13, 6);
+            this.btnMinimize.Location = new System.Drawing.Point(13, 3);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(38, 46);
             this.btnMinimize.TabIndex = 1;
@@ -137,9 +143,9 @@
             // 
             this.pnlAction.Controls.Add(this.btnMinimize);
             this.pnlAction.Controls.Add(this.btnExit);
-            this.pnlAction.Location = new System.Drawing.Point(710, 35);
+            this.pnlAction.Location = new System.Drawing.Point(723, 36);
             this.pnlAction.Name = "pnlAction";
-            this.pnlAction.Size = new System.Drawing.Size(120, 55);
+            this.pnlAction.Size = new System.Drawing.Size(103, 55);
             this.pnlAction.TabIndex = 2;
             // 
             // lblHeader
@@ -164,6 +170,24 @@
             this.img.Images.SetKeyName(2, "Thu.png");
             this.img.Images.SetKeyName(3, "Xuat.png");
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(109, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Tiếp Nhận Đại Lý";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(162, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Phiếu Xuất Hàng";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,6 +205,10 @@
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.tabMenu)).EndInit();
             this.tabMenu.ResumeLayout(false);
+            this.tabTiepNhanDaiLy.ResumeLayout(false);
+            this.tabTiepNhanDaiLy.PerformLayout();
+            this.tabLapPhieuXuatHang.ResumeLayout(false);
+            this.tabLapPhieuXuatHang.PerformLayout();
             this.pnlAction.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -202,6 +230,8 @@
         private System.Windows.Forms.Panel pnlAction;
         private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.ImageList img;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
 
     }
 }
