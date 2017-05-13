@@ -1,0 +1,14 @@
+---------------------------------------t đã làm xong bước 1, việc của m như sau:--------------------------------------------------------
+1/ trong cái layer GUI, có cái file có đuôi .dbml, đó là nó thiết kế dựa trên SQL lấy server máy t, m delete file này và thêm vào dbml mới
+để có thể chạy được trên máy m 
+2/Lưu ý: là nhớ đặt tên các bảng, các thuộc tính cho đúng, cho giống như cách t đặt, Hầu như Table trong SQL t đặt tên giống sách, kiểu 
+dữ liệu varchar(xxx). Sửa một cái là phải add lại khổ lắm. t chỉ mất thời gian với nó nhất thôi.Nếu cần, add trước rồi hãy xóa
+3/ Cách add thì hỏi google, t có thể chỉ sơ sơ là chuột phải layer GUI->add New Items-> Linq to SQL->đặt tên QuanLyDaiLy->OK
+trong clip t gửi vẫn có 1 đoạn nói về cách add
+4/ t viết giao diện để chạy thử cho button Insert rồi. 2 button remove vs Update cũng v thôi, hàm t viết sẵn r, chỉ cần gọi vào button.
+5/ có lỗi j khi add, remove thì chụp hình gửi t xem, có thể t biết cách sửa
+6/ Công việc quan trọng nhất của m vẫn là đẹp và đúng cái giao diện
+7/ Nếu m vẫn chưa hiểu về 3-layer t gửi m 1 số thứ tự tóm tắt(gửi ngay luôn)
+8/ Lên courses.uit.edu.vn có cái demo Checkvalid của Thầy hoan, nghiên cứu chèn nó nhé, được thì tốt, ko thì nói t.
+Nó có chức năng kiểm tra sđt ở VN hay không, hoặc tự tìm địa chỉ khi bấm 1 vài ký tự, nó hoạt động y hệt GG map thôi, có cái đó bài mình 
+đẹp lên nhiều
