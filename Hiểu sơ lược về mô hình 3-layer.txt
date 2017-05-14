@@ -1,0 +1,17 @@
+﻿Hiểu nôm na là có 3 layer, từ cao xuống thấp:
+-----------------GUI: là thao tác với Form, tức là khi click, khi dropdown,.... thì sẽ chạy Handler tương ứng. 
+lưu ý là việc kiểm tra tính đúng đắn của dữ liệu cũng nằm trong Layer này
+-----------------BUS: xử lý dữ liệu để truyền vào layer dưới nó, kiểm tra các ràng buộc, tính toàn vẹn và hợp lệ dữ liệu
+thực hiện tính toán và xử lý các yêu cầu nghiệp vụ
+-----------------DAL:giao tiếp với SQL Server hay các HQT CSDL khác. Các công việc gồm lưu trữ và truy vấn dữ liệu
+Project này hay thấy mấy chữ sql làm tiền tố. Thực chất BUS và DAL là 1 nhưng phải tách ra 2 layer bởi vì mục đích là dùng BUS để gọi hàm từ DAL cho gọn màn hình, còn DAL thì viết búa xua j cũng được.
+-----------------BUSINESS ENITIES thường được sử dụng như Data Transfer Objects ( DTO ) . 
+Bạn có thể sử dụng để truyền dữ liệu giữa các lớp (Presentation và Data Layer). 
+
+
+
+Lớp DTO, đây không phải là layer, đây chỉ là 1 gói dữ liệu đươc trao đổi giữa các lớp. 
+Gói dữ liệu này được xây dựng dưới dạng lớp đối tượng (class object)==>vd có nhiều đối ượng thì bỏ hết vào đây à
+Ví dụ : tạo 1 class Student lưu trữ các dữ liệu về tên, ngày sinh, ID, lớp.
+
+DTO chính là 1 đơn vị thông tin
